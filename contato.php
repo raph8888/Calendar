@@ -19,7 +19,7 @@
 		<h4><strong>Prezado cliente, caso possua algum arquivo que deseja: </strong></h4>
 		
 		 <?php
-        $things = array("Imprimir", "Plastificar", "Encadernar", "Remeter como fax");
+        $things = array("Imprimir", "Plastificar", "Encadernar", "Fax");
         foreach ($things as $thing) {
             echo "<li>$thing</li>";}
 		?>
